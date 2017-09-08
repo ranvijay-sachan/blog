@@ -48,5 +48,9 @@ PUT: http://localhost:8000/api/v1/posts/1
     "text": "",
     "title": ""
 }
+Delete by Parameter : http://localhost:8000/api/v1/posts/1
+
+
+
 
 
