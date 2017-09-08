@@ -1,6 +1,6 @@
 # blog
 
-Step: http://localhost:8000/swagger/
+Step: ```http://localhost:8000/swagger/```
 
 Api's: 
 
@@ -9,53 +9,53 @@ Signup:
 
 
 POST:
-http://localhost:8000/api/v1/signup/
-{
+```http://localhost:8000/api/v1/signup/```
+```{
     "username": "test",
     "password": "welcome",
     "first_name": "ranvijay",
     "last_name": "sachan",
     "email":"r@r.com"
-}
+}```
 
 Login: 
 
 
 
 POST:
-http://localhost:8000/api/v1/login/
+```http://localhost:8000/api/v1/login/```
 
-{
+```{
 	"username" : "root",
 	"password" : "Welcome"
-}
+}```
 
 
 Blog Posts:
 
-http://localhost:8000/api/v1/posts/
+```http://localhost:8000/api/v1/posts/```
 
-{
+```{
     "text": "",
     "title": ""
-}
+}```
 
-Fech all GET: http://localhost:8000/api/v1/posts/
-
-
-
-GET by Parameter : http://localhost:8000/api/v1/posts/1
+Fech all GET: ```http://localhost:8000/api/v1/posts/```
 
 
-PUT: http://localhost:8000/api/v1/posts/1
-{
+
+GET by Parameter : ```http://localhost:8000/api/v1/posts/1```
+
+
+PUT: ```http://localhost:8000/api/v1/posts/1```
+```{
     "text": "",
     "title": ""
-}
+}```
 
 
 
-Delete by Parameter : http://localhost:8000/api/v1/posts/1
+Delete by Parameter : ```http://localhost:8000/api/v1/posts/1```
 
 
 
