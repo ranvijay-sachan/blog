@@ -77,7 +77,7 @@ class UserProfileViewSet(viewsets.ReadOnlyModelViewSet):
     """
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    # permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,)
 
     def list(self, request):
         queryset = User.objects.all()

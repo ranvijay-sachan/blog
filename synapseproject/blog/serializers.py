@@ -16,3 +16,10 @@ class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comment
         fields = ('id', 'post', 'owner', 'text', 'comment_date')
+
+
+class FlagSerializer(serializers.Serializer):
+    """
+    Contains a true/false flag state
+    """
+    state = serializers.BooleanField(required=True)
