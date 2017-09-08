@@ -4,6 +4,9 @@ Step: ```http://localhost:8000/swagger/```
 
 Api's: 
 
+UserProfile: http://localhost:8000/api/v1/users/
+UserProfile Details: http://localhost:8000/api/v1/users/1
+
 
 Signup:
 
@@ -18,12 +21,10 @@ POST:
     "email":"r@r.com"
 }```
 
-Login: 
 
 
-
+```Login: 
 POST:
-```
 http://localhost:8000/api/v1/login/
 
 {
