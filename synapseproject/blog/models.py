@@ -15,3 +15,8 @@ class Post(models.Model):
     owner = models.ForeignKey('auth.User', related_name='posts', on_delete=models.CASCADE)
 
 
+class Comment(models.Model):
+    post = models.ForeignKey(Post)
+    owner = models.ForeignKey('auth.User', related_name='comments', on_delete=models.CASCADE)
+    text = models.TextField()
+    comment_date = models.DateTimeField(auto_now_add=True)
