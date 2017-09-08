@@ -18,11 +18,11 @@ http://localhost:8000/api/v1/signup/
     "email":"r@r.com"
 }
 
+Login: 
+
 
 
 POST:
-Login: 
-
 http://localhost:8000/api/v1/login/
 
 {
