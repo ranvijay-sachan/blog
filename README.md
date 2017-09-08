@@ -9,8 +9,8 @@ Signup:
 
 
 POST:
-```http://localhost:8000/api/v1/signup/```
-```{
+```http://localhost:8000/api/v1/signup/
+{
     "username": "test",
     "password": "welcome",
     "first_name": "ranvijay",
@@ -23,39 +23,53 @@ Login:
 
 
 POST:
-```http://localhost:8000/api/v1/login/```
+```
+http://localhost:8000/api/v1/login/
 
-```{
+{
 	"username" : "root",
 	"password" : "Welcome"
-}```
+}
+
+```
 
 
 Blog Posts:
 
+```
+http://localhost:8000/api/v1/posts/
+
+{
+    "text": "",
+    "title": ""
+}
+
+```
+
+Fech all GET: 
+
 ```http://localhost:8000/api/v1/posts/```
 
-```{
+
+
+GET by Parameter : 
+
+```http://localhost:8000/api/v1/posts/1```
+
+
+PUT: 
+
+```http://localhost:8000/api/v1/posts/1
+{
     "text": "",
     "title": ""
 }```
 
-Fech all GET: ```http://localhost:8000/api/v1/posts/```
 
 
+Delete by Parameter : 
 
-GET by Parameter : ```http://localhost:8000/api/v1/posts/1```
-
-
-PUT: ```http://localhost:8000/api/v1/posts/1```
-```{
-    "text": "",
-    "title": ""
-}```
-
-
-
-Delete by Parameter : ```http://localhost:8000/api/v1/posts/1```
+```http://localhost:8000/api/v1/posts/1```
 
 
 
