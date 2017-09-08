@@ -40,14 +40,21 @@ http://localhost:8000/api/v1/posts/
     "title": ""
 }
 
-GET: http://localhost:8000/api/v1/posts/
+Fech all GET: http://localhost:8000/api/v1/posts/
+
+
+
 GET by Parameter : http://localhost:8000/api/v1/posts/1
+
 
 PUT: http://localhost:8000/api/v1/posts/1
 {
     "text": "",
     "title": ""
 }
+
+
+
 Delete by Parameter : http://localhost:8000/api/v1/posts/1
 
 
