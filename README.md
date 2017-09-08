@@ -73,5 +73,25 @@ Delete by Parameter :
 
 
 
+Comment POST: http://localhost:8000/api/v1/comment/
+```{
+    "text": "",
+    "post": null
+}```
+
+
+GET ALL: http://localhost:8000/api/v1/comment/
+GET WITH PARAMETER: http://localhost:8000/api/v1/comment/1/
+
+
+
+PUT: http://localhost:8000/api/v1/comment/1/
+
+```{
+    "text": "",
+    "post": null
+}```
+
+DELETE WITH PARAMETER: http://localhost:8000/api/v1/comment/1/
 
 
